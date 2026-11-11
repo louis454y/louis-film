@@ -17,6 +17,19 @@
     { id: '2Am6nacd2Z0', title: 'Cortometraje Narrativo', category: 'cortometraje', year: '2024' },
     { id: 'ua2McpfIZ-0', title: 'Historia Visual Experimental', category: 'cortometraje', year: '2024' },
     { id: 'fU7GpZLe9WY', title: 'Drama Cinematográfico', category: 'cortometraje', year: '2024' },
+
+    // —— Nuevos videos Comercial ——
+    { id: '2HglvFpjr7E', title: 'Atlántico Vivero — Video Corporativo', category: 'comercial', year: '2025' },
+    { id: 'ID8V3ozsg4U', title: 'Diseño de Paisajismo y Jardinería', category: 'comercial', year: '2025' },
+    { id: 'mO7NnPFTQ_w', title: 'Siembra de Palmera Cica', category: 'comercial', year: '2025' },
+    { id: 'F3M56WMArdA', title: 'Video Publicitario — Productor Musical', category: 'comercial', year: '2025' },
+    { id: '4-5_E_5l_6M', title: 'Video Publicitario — Peluquería', category: 'comercial', year: '2025' },
+    { id: 'MOE5XQrHFMk', title: 'Jornada de Siembra — Colegio San José', category: 'comercial', year: '2025' },
+
+    // —— Nuevos videos Documentales / Narrativos ——
+    { id: '30NJK92MX-M', title: 'NABOHEAD — Pompeya (Edición Narrativa)', category: 'cortometraje', year: '2025' },
+    { id: 'a48V8wBbVQk', title: 'NABOHEAD — Contenido Narrativo', category: 'cortometraje', year: '2025' },
+    { id: 'kpZoB12U9Vw', title: 'NABOHEAD — La Danza de 1518', category: 'cortometraje', year: '2025' },
   ];
 
   // Year
