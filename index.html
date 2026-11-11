@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#050505" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <title>LOUIS FILM | Filmmaker & Visual Storyteller</title>
+  <meta name="description" content="LOUIS FILM — Cineasta profesional especializado en videos musicales, videografía corporativa e historias visuales. Basado en Colombia." />
+  <meta property="og:title" content="LOUIS FILM | Filmmaker & Visual Storyteller" />
+  <meta property="og:description" content="Capturando momentos, creando historias visuales. Producción audiovisual premium." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div id="preloader">
+    <div class="loader-inner">
+      <div class="loader-logo">LOUIS <span>FILM</span></div>
+      <div class="loader-bar"><div class="loader-progress"></div></div>
+    </div>
+  </div>
+
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursor-follower"></div>
+
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a href="#home" class="logo">
+        <span class="logo-icon">▶</span>
+        <span class="logo-text">LOUIS <span>FILM</span></span>
+      </a>
+      <nav class="nav nav-desktop" id="nav">
+        <a href="#home" class="nav-link active" data-section="home">Inicio</a>
+        <a href="#about" class="nav-link" data-section="about">Sobre mí</a>
+        <a href="#portfolio" class="nav-link" data-section="portfolio">Portafolio</a>
+        <a href="#services" class="nav-link" data-section="services">Servicios</a>
+        <a href="#testimonials" class="nav-link" data-section="testimonials">Testimonios</a>
+        <a href="#contact" class="nav-link" data-section="contact">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- App-style bottom nav (móvil) -->
+  <nav class="bottom-nav" id="bottom-nav" aria-label="Navegación">
+    <a href="#home" class="bottom-nav-item active" data-section="home">
+      <span class="bn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9.5L12 3l9 6.5V20a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5z"/><path d="M9 21V12h6v9"/></svg></span>
+      <span class="bn-label">Inicio</span>
+    </a>
+    <a href="#portfolio" class="bottom-nav-item" data-section="portfolio">
+      <span class="bn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg></span>
+      <span class="bn-label">Trabajos</span>
+    </a>
+    <a href="#services" class="bottom-nav-item" data-section="services">
+      <span class="bn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg></span>
+      <span class="bn-label">Servicios</span>
+    </a>
+    <a href="#contact" class="bottom-nav-item" data-section="contact">
+      <span class="bn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></span>
+      <span class="bn-label">Contacto</span>
+    </a>
+  </nav>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-bg">
+        <div class="hero-overlay"></div>
+        <div class="hero-grid"></div>
+        <div class="hero-orbs">
+          <span class="orb orb-1"></span>
+          <span class="orb orb-2"></span>
+          <span class="orb orb-3"></span>
+        </div>
+      </div>
+      <div class="container hero-content">
+        <p class="hero-tag anim-fade-up" data-delay="0">Filmmaker & Visual Storyteller</p>
+        <h1 class="hero-title">
+          <span class="line anim-fade-up" data-delay="100">LOUIS</span>
+          <span class="line accent anim-fade-up" data-delay="220">FILM</span>
+        </h1>
+        <p class="hero-subtitle anim-fade-up" data-delay="380">Capturando Momentos, Creando Historias Visuales</p>
+        <div class="hero-cta anim-fade-up" data-delay="520">
+          <a href="#portfolio" class="btn btn-primary btn-press">Explorar mi trabajo</a>
+          <a href="#contact" class="btn btn-ghost btn-press">Hablemos</a>
+        </div>
+      </div>
+      <div class="scroll-indicator anim-fade-up" data-delay="700"><span></span></div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-image reveal-scale">
+            <div class="image-frame">
+              <img src="https://louisbutronfilm.netlify.app/luis3h.jpg" alt="LOUIS FILM — Cineasta" loading="lazy" />
+              <div class="frame-border"></div>
+              <div class="image-glow"></div>
+            </div>
+          </div>
+          <div class="about-content">
+            <p class="section-tag reveal">Sobre mí</p>
+            <h2 class="section-title reveal">Narrador Visual & Cineasta</h2>
+            <p class="about-text reveal">Basado en Colombia, soy un cineasta apasionado por traducir emociones y narrativas en historias visuales cautivadoras.</p>
+            <p class="about-text reveal">Con más de 10 años de experiencia en la industria, he tenido el privilegio de trabajar con reconocidos artistas, marcas y productoras en toda América Latina. Mi enfoque combina precisión técnica con visión artística, creando contenido que resuena con las audiencias y alcanza los objetivos de mis clientes.</p>
+            <div class="achievements reveal">
+              <h3>Logros destacados</h3>
+              <ul>
+                <li class="reveal" data-stagger="0">Director de videos musicales con más de 50M+ de vistas</li>
+                <li class="reveal" data-stagger="1">Cineasta destacado en el Festival de Cine Latinoamericano (2022)</li>
+                <li class="reveal" data-stagger="2">Campañas para marcas y artistas reconocidos en la región</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="section portfolio">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag reveal">Portafolio</p>
+          <h2 class="section-title reveal">Mi trabajo</h2>
+          <p class="section-desc reveal">Una selección de mis mejores proyectos en diferentes categorías.</p>
+        </div>
+        <div class="portfolio-filters reveal">
+          <button class="filter-btn active btn-press" data-filter="all">Todos</button>
+          <button class="filter-btn btn-press" data-filter="comercial">Comercial</button>
+          <button class="filter-btn btn-press" data-filter="cortometraje">Cortometraje</button>
+        </div>
+        <div class="portfolio-grid" id="portfolio-grid"></div>
+      </div>
+    </section>
+
+    <section id="services" class="section services">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag reveal">Servicios</p>
+          <h2 class="section-title reveal">Lo que ofrezco</h2>
+          <p class="section-desc reveal">Producción de video profesional adaptada a tus necesidades.</p>
+        </div>
+        <div class="services-grid">
+          <article class="service-card reveal-card" data-stagger="0">
+            <div class="service-icon-wrap"><span class="service-icon">🎬</span></div>
+            <h3>Videos Musicales</h3>
+            <p>Dirección creativa y producción para artistas que buscan elevar visualmente su música.</p>
+            <ul>
+              <li>Desarrollo de concepto</li>
+              <li>Búsqueda de locaciones</li>
+              <li>Filmación de día completo</li>
+              <li>Edición + color 4K</li>
+            </ul>
+          </article>
+          <article class="service-card reveal-card" data-stagger="1">
+            <div class="service-icon-wrap"><span class="service-icon">🏢</span></div>
+            <h3>Videografía Corporativa</h3>
+            <p>Contenido profesional que eleva tu marca y comunica tu mensaje con claridad.</p>
+            <ul>
+              <li>Estrategia de marca</li>
+              <li>Guión y dirección</li>
+              <li>Entrevistas + motion</li>
+              <li>Múltiples formatos</li>
+            </ul>
+          </article>
+          <article class="service-card reveal-card" data-stagger="2">
+            <div class="service-icon-wrap"><span class="service-icon">📡</span></div>
+            <h3>Eventos en Vivo</h3>
+            <p>Cobertura dinámica multicámara de conciertos, conferencias y eventos especiales.</p>
+            <ul>
+              <li>Planificación pre-evento</li>
+              <li>Setup multicámara</li>
+              <li>Switching en vivo</li>
+              <li>Entrega rápida</li>
+            </ul>
+          </article>
+          <article class="service-card reveal-card" data-stagger="3">
+            <div class="service-icon-wrap"><span class="service-icon">✨</span></div>
+            <h3>Post-Producción</h3>
+            <p>Transforma material bruto en contenido pulido y profesional.</p>
+            <ul>
+              <li>Edición profesional</li>
+              <li>Color grading</li>
+              <li>Sonido + gráficos</li>
+              <li>Master final</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="section testimonials">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag reveal">Testimonios</p>
+          <h2 class="section-title reveal">Lo que dicen mis clientes</h2>
+        </div>
+        <div class="testimonials-grid">
+          <blockquote class="testimonial-card reveal-card" data-stagger="0">
+            <div class="quote-mark">“</div>
+            <p>Louis dio vida a mi música visualmente de maneras que nunca imaginé. Su visión y experiencia técnica crearon un video que captura perfectamente la esencia de mi canción.</p>
+            <footer>
+              <strong>Elder Dayán Díaz</strong>
+              <span>Artista Independiente — Video Musical</span>
+            </footer>
+          </blockquote>
+          <blockquote class="testimonial-card reveal-card" data-stagger="1">
+            <div class="quote-mark">“</div>
+            <p>Trabajar con Louis transformó la historia de nuestra marca. Su atención al detalle y capacidad narrativa nos ayudó a conectar con nuestra audiencia a un nivel más profundo.</p>
+            <footer>
+              <strong>María Rodríguez</strong>
+              <span>Directora de Marketing, Grupo Cabra</span>
+            </footer>
+          </blockquote>
+          <blockquote class="testimonial-card reveal-card" data-stagger="2">
+            <div class="quote-mark">“</div>
+            <p>Louis y su equipo capturaron cada momento importante de nuestro festival. El video final no solo documentó el evento sino que transmitió perfectamente la energía y emoción.</p>
+            <footer>
+              <strong>Carlos Méndez</strong>
+              <span>Coordinador, Urban Festival</span>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-info">
+            <p class="section-tag reveal">Contacto</p>
+            <h2 class="section-title reveal">Ponte en contacto</h2>
+            <p class="contact-lead reveal">¿Listo para comenzar tu proyecto? Hablemos y demos vida a tu visión.</p>
+            <div class="contact-details">
+              <a href="mailto:butronluis02@gmail.com" class="contact-item reveal btn-press">
+                <span class="ci-icon">✉</span>
+                <div>
+                  <span class="label">Correo</span>
+                  <span class="value">butronluis02@gmail.com</span>
+                </div>
+              </a>
+              <a href="tel:+573227135864" class="contact-item reveal btn-press">
+                <span class="ci-icon">☎</span>
+                <div>
+                  <span class="label">Teléfono</span>
+                  <span class="value">+57 322 713 5864</span>
+                </div>
+              </a>
+              <a href="https://wa.me/573227139851" target="_blank" rel="noopener" class="contact-item reveal btn-press">
+                <span class="ci-icon">💬</span>
+                <div>
+                  <span class="label">WhatsApp</span>
+                  <span class="value">+57 322 713 9851</span>
+                </div>
+              </a>
+            </div>
+            <a href="https://wa.me/573227139851?text=Hola%20Louis%2C%20quiero%20hablar%20sobre%20un%20proyecto" class="btn btn-whatsapp btn-press reveal" target="_blank" rel="noopener">Contactar por WhatsApp</a>
+          </div>
+
+          <form class="contact-form reveal-scale" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+            <input type="hidden" name="form-name" value="contact" />
+            <p class="hidden"><label>No llenar: <input name="bot-field" /></label></p>
+            <div class="form-group">
+              <label for="name">Tu nombre</label>
+              <input type="text" id="name" name="name" required placeholder="Nombre completo" autocomplete="name" />
+            </div>
+            <div class="form-group">
+              <label for="email">Tu email</label>
+              <input type="email" id="email" name="email" required placeholder="correo@ejemplo.com" autocomplete="email" />
+            </div>
+            <div class="form-group">
+              <label for="subject">Asunto</label>
+              <select id="subject" name="subject" required>
+                <option value="">Selecciona un asunto</option>
+                <option value="Video Musical">Video Musical</option>
+                <option value="Video Corporativo">Video Corporativo</option>
+                <option value="Cobertura de Eventos">Cobertura de Eventos</option>
+                <option value="Post-Producción">Post-Producción</option>
+                <option value="Identidad Visual">Identidad Visual</option>
+                <option value="Otro">Otro</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Tu mensaje</label>
+              <textarea id="message" name="message" rows="5" required placeholder="Cuéntame sobre tu proyecto..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full btn-press">Enviar mensaje</button>
+            <p class="form-note">Al enviar aceptas que te contacte sobre tu solicitud.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-text">LOUIS <span>FILM</span></span>
+        <p>Capturando momentos, creando historias visuales.</p>
+      </div>
+      <div class="footer-copy">
+        <p>© <span id="year"></span> LOUIS FILM. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="modal" id="video-modal" aria-hidden="true">
+    <div class="modal-backdrop"></div>
+    <div class="modal-content">
+      <button class="modal-close btn-press" id="modal-close" aria-label="Cerrar">×</button>
+      <div class="video-wrapper">
+        <iframe id="video-iframe" src="" title="Video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
+  <a href="https://wa.me/573227139851?text=Hola%20Louis%2C%20quiero%20información%20sobre%20tus%20servicios" class="whatsapp-float btn-press" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <svg viewBox="0 0 32 32" width="26" height="26"><path fill="currentColor" d="M16.004 0C7.17 0 0 7.176 0 16.01c0 2.826.738 5.59 2.14 8.026L.07 31.28l7.48-1.96A15.95 15.95 0 0 0 16.004 32C24.83 32 32 24.822 32 15.99 32 7.176 24.83 0 16.004 0zm0 29.26a13.23 13.23 0 0 1-6.74-1.84l-.484-.288-4.444 1.164 1.186-4.332-.314-.498A13.2 13.2 0 0 1 2.74 16.01c0-7.32 5.95-13.27 13.264-13.27 7.32 0 13.27 5.95 13.27 13.27 0 7.314-5.95 13.25-13.27 13.25zm7.27-9.92c-.398-.2-2.354-1.162-2.72-1.294-.366-.134-.632-.2-.9.2-.266.398-1.032 1.294-1.266 1.56-.232.266-.466.3-.864.1-.398-.2-1.68-.62-3.2-1.976-1.182-1.054-1.98-2.356-2.214-2.754-.232-.398-.024-.612.174-.81.18-.178.398-.466.598-.7.2-.232.266-.398.4-.664.132-.266.066-.5-.034-.7-.1-.2-.9-2.166-1.232-2.966-.324-.78-.654-.674-.9-.686-.232-.012-.498-.014-.764-.014s-.7.1-1.066.5c-.366.398-1.4 1.366-1.4 3.332 0 1.966 1.432 3.864 1.632 4.13.2.266 2.82 4.304 6.832 6.036 4.012 1.732 4.012 1.154 4.736 1.08.724-.074 2.354-.962 2.686-1.892.332-.93.332-1.726.232-1.892-.098-.166-.364-.266-.762-.466z"/></svg>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
