@@ -15,9 +15,12 @@
     { id: 'dTLYge61f-4', title: 'Publicidad de Servicio Premium', category: 'comercial', year: '2025' },
     { id: '2_WZYuJn3nQ', title: 'Campaña Publicitaria Integral', category: 'comercial', year: '2025' },
     { id: '2Am6nacd2Z0', title: 'Cortometraje Narrativo', category: 'cortometraje', year: '2026' },
+     { id: 'MBzibBeoFJo', title: 'Producción Audiovisual De publicidad Puerto vivero', category: 'comercial', year: '2026' },
+
+    
     { id: 'ua2McpfIZ-0', title: 'Historia Visual Experimental', category: 'cortometraje', year: '2026' },
     { id: 'fU7GpZLe9WY', title: 'Drama Cinematográfico', category: 'cortometraje', year: '2026' },
-
+    
     // —— Nuevos videos Comercial ——
     { id: '2HglvFpjr7E', title: 'Atlántico Vivero — Video Corporativo', category: 'comercial', year: '2026' },
     { id: 'ID8V3ozsg4U', title: 'Diseño de Paisajismo y Jardinería', category: 'comercial', year: '2026' },
@@ -25,6 +28,7 @@
     { id: 'F3M56WMArdA', title: 'Video Publicitario — Productor Musical', category: 'comercial', year: '2026' },
     { id: '4-5_E_5l_6M', title: 'Video Publicitario — Peluquería', category: 'comercial', year: '2026' },
     { id: 'MOE5XQrHFMk', title: 'Jornada de Siembra — Colegio San José', category: 'comercial', year: '2026' },
+   
 
     // —— Nuevos videos Documentales / Narrativos ——
     { id: '30NJK92MX-M', title: 'NABOHEAD — Pompeya (Edición Narrativa)', category: 'cortometraje', year: '2026' },
