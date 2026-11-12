@@ -6,7 +6,7 @@
   'use strict';
 
   const portfolioItems = [
-    { id: 'HlJ3L4dvKj4', title: 'Campaña Visual Premium', category: 'comercial', year: '2025' },
+    { id: 'HlJ3L4dvKj4', title: 'Producion Audio Visual Ferxoo', category: 'comercial', year: '2025' },
     { id: 'PQ7qWPqiwyQ', title: 'Anuncio De Campaña de Cambio Radical', category: 'comercial', year: '2025' },
     { id: 'Ads4Zq_KeQ0', title: 'Anuncio De Campaña de Cambio Radical', category: 'comercial', year: '2025' },
     { id: '0mYq6nHYlOQ', title: 'Anuncio De Campaña de Cambio Radical', category: 'comercial', year: '2025' },
